@@ -1,0 +1,5 @@
+import requests
+from urllib.request import urlopen
+response = urlopen('http://google.com/')
+http = response.read()
+print(http)
